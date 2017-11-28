@@ -54,12 +54,7 @@ void selectMenu(){
 int main(void){
 
 	system("mode con: cols=150 lines=50");
-	unsigned char a = 0xa6;
-	unsigned char b[12];
-	for (int i = 1; i <= 11; i++){
-		b[i] = 0xa0 + i;
-		printf("%c%c", a, b[i]);
-	}
+	
 	//selectMenu();
 	cout << endl;
 	cout << endl;
